@@ -2,7 +2,7 @@
 
 ## 傅立葉級數
 
-對於週期函數 $f(x)$，週期為 $L$，其傅立葉級數展開為：
+對於週期函數 $f(x)$ ，週期為 $L$ ，其傅立葉級數展開為：
 
 $$f(x) = \frac{a_0}{2} + \sum_{n=1}^\infty \left[ a_n \cos\left(\frac{n\pi x}{L}\right) + b_n \sin\left(\frac{n\pi x}{L}\right) \right]$$
 
@@ -30,11 +30,11 @@ $$\hat{p} = -i\hbar \frac{\partial}{\partial x}$$
 
 $$\phi(p) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^\infty \psi(x) e^{-ipx/\hbar} dx$$
 
-這顯示：**波數 $k$ 直接對應動量 $p = \hbar k$**。波數越大，動量越大。
+這顯示：**波數 $k$ 直接對應動量 $p = \hbar k$ **。波數越大，動量越大。
 
 ## 不確定性原理的傅立葉證明
 
-傅立葉變換證德國-海森堡不確定性原理 $\Delta x \Delta p \geq \hbar/2$ 的數學來源：一個函數與其傅立葉變換在「壓縮」與「展開」之間存在貿易關係。波函數越局域化（$\Delta x$ 小），其傅立葉變換就越分散（$\Delta p$ 大），反之亦然。
+傅立葉變換證德國-海森堡不確定性原理 $\Delta x \Delta p \geq \hbar/2$ 的數學來源：一個函數與其傅立葉變換在「壓縮」與「展開」之間存在貿易關係。波函數越局域化（ $\Delta x$ 小），其傅立葉變換就越分散（ $\Delta p$ 大），反之亦然。
 
 ## 關鍵公式速查
 
@@ -48,7 +48,7 @@ $$\phi(p) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^\infty \psi(x) e^{-ipx/\hb
 
 ## 練習問題
 
-1. 求函數 $f(x) = x$（區間 $x \in [-\pi, \pi]$）的傅立葉級數展開。
+1. 求函數 $f(x) = x$ （區間 $x \in [-\pi, \pi]$ ）的傅立葉級數展開。
 2. 證明：波函數 $\psi(x) = A e^{-x^2/2\sigma^2}$ 的傅立葉變換仍為高斯函數，並求出其寬度變換關係。
 3. 利用傅立葉變換，證明不確定性原理 $\Delta x \Delta p \geq \hbar/2$ 的數學本質。
 

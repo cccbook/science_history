@@ -4,7 +4,7 @@
 
 ## ket 記號 $| \psi \rangle$
 
-**ket**（寫作 $|\psi\rangle$）表示一個希爾伯特空間中的向量。它可以是任意態，例如：
+**ket**（寫作 $|\psi\rangle$ ）表示一個希爾伯特空間中的向量。它可以是任意態，例如：
 
 - 基態 $|0\rangle, |1\rangle$
 - 波函數 $|\psi(x)\rangle$
@@ -14,9 +14,9 @@
 
 ## bra 記號 $\langle \phi |$
 
-**bra**（寫作 $\langle\phi|$）是 ket 的**共軛轉置**。讀作：「bra phi」或「phi 縮釋」。
+**bra**（寫作 $\langle\phi|$ ）是 ket 的**共軛轉置**。讀作：「bra phi」或「phi 縮釋」。
 
-若 $|\psi\rangle = \begin{pmatrix} a \\ b \end{pmatrix}$，則 $\langle\psi| = \begin{pmatrix} a^* & b^* \end{pmatrix}$。
+若 $|\psi\rangle = \begin{pmatrix} a \\ b \end{pmatrix}$ ，則 $\langle\psi| = \begin{pmatrix} a^* & b^* \end{pmatrix}$ 。
 
 ## 内積
 
@@ -28,9 +28,9 @@ $$\langle\phi|\psi\rangle$$
 
 ### 性質
 
-1. **線性**：$\langle\phi|(|\psi_1\rangle + |\psi_2\rangle) = \langle\phi|\psi_1\rangle + \langle\phi|\psi_2\rangle$
-2. **共軛對稱**：$\langle\phi|\psi\rangle = \langle\psi|\phi\rangle^*$
-3. **定性**：$\langle\psi|\psi\rangle \geq 0$，且 $\langle\psi|\psi\rangle = 1$ 當 $|\psi\rangle$ 歸一化時
+1. **線性**： $\langle\phi|(|\psi_1\rangle + |\psi_2\rangle) = \langle\phi|\psi_1\rangle + \langle\phi|\psi_2\rangle$
+2. **共軛對稱**： $\langle\phi|\psi\rangle = \langle\psi|\phi\rangle^*$
+3. **定性**： $\langle\psi|\psi\rangle \geq 0$ ，且 $\langle\psi|\psi\rangle = 1$ 當 $|\psi\rangle$ 歸一化時
 
 ## 外積
 
@@ -44,9 +44,9 @@ $$(|\psi\rangle\langle\phi|)|\chi\rangle = |\psi\rangle(\langle\phi|\chi\rangle)
 
 投影算子 $P = |\psi\rangle\langle\psi|$ 具有以下性質：
 
-- $P^2 = P$（投射性）
-- $P^\dagger = P$（厄米性）
-- 若 $|\psi\rangle$ 歸一化，則對於任意態 $|\phi\rangle$，$P|\phi\rangle$ 就是 $|\psi\rangle$ 在 $|\phi\rangle$ 方向上的投影。
+- $P^2 = P$ （投射性）
+- $P^\dagger = P$ （厄米性）
+- 若 $|\psi\rangle$ 歸一化，則對於任意態 $|\phi\rangle$ ， $P|\phi\rangle$ 就是 $|\psi\rangle$ 在 $|\phi\rangle$ 方向上的投影。
 
 ## 算子的表示
 
@@ -54,7 +54,7 @@ $$(|\psi\rangle\langle\phi|)|\chi\rangle = |\psi\rangle(\langle\phi|\chi\rangle)
 
 $$\hat A = \sum_i \lambda_i |\lambda_i\rangle\langle\lambda_i|$$
 
-其中 $\lambda_i$ 是本徵值，$|\lambda_i\rangle$ 是對應的本徵向量。這是**薛丁格展開**，類似於福里葉級數。
+其中 $\lambda_i$ 是本徵值， $|\lambda_i\rangle$ 是對應的本徵向量。這是**薛丁格展開**，類似於福里葉級數。
 
 ## 本章小結
 

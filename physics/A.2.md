@@ -2,16 +2,16 @@
 
 ## 本徵值與本徵向
 
-對於方陣 $A$，若存在非零向量 $\mathbf{v}$ 滿足：
+對於方陣 $A$ ，若存在非零向量 $\mathbf{v}$ 滿足：
 
 $$A\mathbf{v} = \lambda\mathbf{v}$$
 
-則 $\lambda$ 稱為方陣 $A$ 的**本徵值**，$\mathbf{v}$ 稱為對應的**本徵向**。
+則 $\lambda$ 稱為方陣 $A$ 的**本徵值**， $\mathbf{v}$ 稱為對應的**本徵向**。
 
 解本徵值問題的步驟：
-1. 解出特徵多項式：$\det(A - \lambda I) = 0$
+1. 解出特徵多項式： $\det(A - \lambda I) = 0$
 2. 求出本徵值 $\lambda_1, \lambda_2, \dots, \lambda_n$
-3. 對每個 $\lambda_i$，解方程 $(A - \lambda_i I)\mathbf{v} = \mathbf{0}$ 求得本徵向 $\mathbf{v}_i$
+3. 對每個 $\lambda_i$ ，解方程 $(A - \lambda_i I)\mathbf{v} = \mathbf{0}$ 求得本徵向 $\mathbf{v}_i$
 
 ## 厄米矩陣
 
@@ -22,8 +22,8 @@ $$A = A^\dagger$$
 其中 $A^\dagger = (A^*)^T$ 是 $A$ 的共轉轉矩陣。厄米矩陣具有以下性質：
 
 - **本徵值皆為實數**
-- **不同本徵值對應的本徵向正交**：$\mathbf{v}_i^\dagger \mathbf{v}_j = 0$ （當 $i \neq j$ 時）
-- **可以酉對角化**：存在酉矩陣 $U$ 使得 $U^\dagger A U = \Lambda$（$\Lambda$ 為本徵值對角矩陣）
+- **不同本徵值對應的本徵向正交**： $\mathbf{v}_i^\dagger \mathbf{v}_j = 0$ （當 $i \neq j$ 時）
+- **可以酉對角化**：存在酉矩陣 $U$ 使得 $U^\dagger A U = \Lambda$ （ $\Lambda$ 為本徵值對角矩陣）
 
 ##  unitary 矩陣
 
@@ -37,9 +37,9 @@ $$U^\dagger U = UU^\dagger = I$$
 
 常見的矩陣分解包括：
 
-- **特徵分解**：$A = PDP^{-1}$，$D$ 為本徵值對角矩陣
-- **奇異值分解 (SVD)**：$A = U\Sigma V^\dagger$，適用於任何矩陣（不僅僅是方陣）
-- **極分解**：$A = UP$，其中 $U$ 酉矩陣，$P$ 正定矩陣
+- **特徵分解**： $A = PDP^{-1}$ ， $D$ 為本徵值對角矩陣
+- **奇異值分解 (SVD)**： $A = U\Sigma V^\dagger$ ，適用於任何矩陣（不僅僅是方陣）
+- **極分解**： $A = UP$ ，其中 $U$ 酉矩陣， $P$ 正定矩陣
 
 ## 应用實例
 
@@ -49,7 +49,7 @@ $$U^\dagger U = UU^\dagger = I$$
 
 1. 求矩陣 $A = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$ 的本徵值與本徵向。
 2. 證明：厄米矩陣的本徵值皆為實數。
-3. 給定酉矩陣 $U = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & i \\ i & 1 \end{pmatrix}$，驗證 $U^\dagger U = I$。
+3. 給定酉矩陣 $U = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & i \\ i & 1 \end{pmatrix}$ ，驗證 $U^\dagger U = I$ 。
 
 ---
 

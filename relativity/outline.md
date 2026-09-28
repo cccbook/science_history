@@ -59,11 +59,11 @@
 
 | 節 | 標題 | 內容 |
 |----|------|------|
-| A.1 | 四維向量與四維範數 | $x^\mu = (ct, x, y, z)$、$\eta_{\mu\nu} = \text{diag}(-1, 1, 1, 1)$ |
-| A.2 | 四維微分與勃拉迪沙運算子 | $\partial_\mu = (\frac{1}{c}\frac{\partial}{\partial t}, \nabla)$、$\Box = \partial_\mu\partial^\mu$ |
-| A.3 | 四維張量與對易 | 對易子 $[A^{\mu\nu}, B^{\rho\sigma}]$、反對稱張量 |
+| A.1 | 四維向量與四維範數 | $x^\mu = (ct, x, y, z)$ 、 $\eta_{\mu\nu} = \text{diag}(-1, 1, 1, 1)$ |
+| A.2 | 四維微分與勃拉迪沙運算子 | $\partial_\mu = (\frac{1}{c}\frac{\partial}{\partial t}, \nabla)$ 、 $\Box = \partial_\mu\partial^\mu$ |
+| A.3 | 四維張量與對易 | 對易子 $[A^{\mu\nu}, B^{\rho\sigma}]$ 、反對稱張量 |
 | A.4 | 區間不變量 | $s^2 = -c^2\Delta t^2 + \Delta x^2 + \Delta y^2 + \Delta z^2$ |
-| A.5 | 洛倫茲變換矩陣 | $\Lambda^\mu_{\ \nu}$、速度加法公式 |
+| A.5 | 洛倫茲變換矩陣 | $\Lambda^\mu_{\ \nu}$ 、速度加法公式 |
 | A.6 | 彭羅斯圖 | 因果結構、無窮遠點 |
 
 ### 附錄 B：諾貝爾獎與關鍵年份年表

@@ -4,27 +4,27 @@
 
 在數學邏輯中，我們使用特定符號來表示命題與其邏輯關係：
 
-- $p \land q$：$p$ 且 $q$（合取）
-- $p \lor q$：$p$ 或 $q$（析取）
-- $\neg p$：非 $p$（否定）
-- $p \rightarrow q$：$p$ 意味著 $q$（條件）
-- $p \leftrightarrow q$：$p$ 當且僅當 $q$（等價）
+- $p \land q$ ： $p$ 且 $q$ （合取）
+- $p \lor q$ ： $p$ 或 $q$ （析取）
+- $\neg p$ ：非 $p$ （否定）
+- $p \rightarrow q$ ： $p$ 意味著 $q$ （條件）
+- $p \leftrightarrow q$ ： $p$ 當且僅當 $q$ （等價）
 
 **量詞符號**
 
-- $\forall x$：對於所有 $x$（萬量）
-- $\exists x$：存在某個 $x$（存在量）
-- $\exists! x$：存在唯一個 $x$
+- $\forall x$ ：對於所有 $x$ （萬量）
+- $\exists x$ ：存在某個 $x$ （存在量）
+- $\exists! x$ ：存在唯一個 $x$
 
 **集合運算**
 
-- $x \in A$：$x$ 屬於 $A$
-- $x \notin A$：$x$ 不屬於 $A$
-- $A \cup B$：$A$ 与 $B$ 的并集
-- $A \cap B$：$A$ 与 $B$ 的交集
-- $A \subseteq B$：$A$ 是 $B$ 的子集
-- $A \subset B$：$A$ 是 $B$ 的真子集
-- $A \setminus B$：$A$ 与 $B$ 的差集
+- $x \in A$ ： $x$ 屬於 $A$
+- $x \notin A$ ： $x$ 不屬於 $A$
+- $A \cup B$ ： $A$ 与 $B$ 的并集
+- $A \cap B$ ： $A$ 与 $B$ 的交集
+- $A \subseteq B$ ： $A$ 是 $B$ 的子集
+- $A \subset B$ ： $A$ 是 $B$ 的真子集
+- $A \setminus B$ ： $A$ 与 $B$ 的差集
 
 **本章小結**
 
@@ -34,6 +34,6 @@
 
 **想一想**
 
-1. 如果省略 $\neg$（否定）符號，我們能否仍然用其他符號表示邏輯否定？
-2. 在電腦科學中，$A \subseteq B$ 与 $A \subset B$ 的區別為何？這在程式設計中有何實際意義？
+1. 如果省略 $\neg$ （否定）符號，我們能否仍然用其他符號表示邏輯否定？
+2. 在電腦科學中， $A \subseteq B$ 与 $A \subset B$ 的區別為何？這在程式設計中有何實際意義？
 3. 你認為集合論中的「悖論」（如羅素悖論）對現代公理化集合論（ZFC）有何種啟發？
